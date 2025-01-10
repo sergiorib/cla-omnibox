@@ -1,7 +1,7 @@
 [project]
 name = "cla-omnibox"
 version = "0.1.0"
-description = "Análise de dados CLA sobre a base Omnibox"
+description = "Analise de dados CLA sobre a base Omnibox"
 authors = [
     {name = "Sergio Ribeiro",email = "sergiorcerqueira@gmail.com"}
 ]
