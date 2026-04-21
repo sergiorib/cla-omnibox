@@ -1,10 +1,12 @@
 # project folders & files
 data/
 backup/
+datalake/raw/google_analytics/*.jsonl
 *.pbix
 *.fig
 *.parquet 
 *.drawio.bkp
+
 
 # Arquivos de cache Python
 # Byte-compiled / optimized / DLL files
