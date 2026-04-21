@@ -1,0 +1,2669 @@
+[
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-05 00:00:00;100;527.01;257;13540"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-06 00:00:00;100;457.97;429;39461"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-07 00:00:00;100;618.29;339;16439"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-08 00:00:00;100;516.71;211;9383"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-09 00:00:00;100;593.85;535;41957"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-10 00:00:00;100;655.47;387;23484"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-11 00:00:00;100;696.27;378;31259"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-12 00:00:00;100;740.0;520;30876"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-13 00:00:00;100;907.13;796;44937"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-14 00:00:00;100;906.51;1031;53941"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-15 00:00:00;100;836.71;918;37881"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-16 00:00:00;100;1111.09;511;35073"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-17 00:00:00;100;898.06;457;27526"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-18 00:00:00;100;946.69;576;54774"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-19 00:00:00;100;1251.0;1008;50557"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-20 00:00:00;100;1095.05;650;35713"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-21 00:00:00;100;1092.91;446;20622"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-22 00:00:00;100;1418.72;611;32211"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-23 00:00:00;100;1464.39;1540;119013"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-24 00:00:00;100;1162.62;859;54263"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-25 00:00:00;100;1297.19;587;38237"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-05 00:00:00;101;433.73;138;4031"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-06 00:00:00;101;556.96;323;5418"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-07 00:00:00;101;602.59;287;9514"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-08 00:00:00;101;660.63;182;3508"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-09 00:00:00;101;702.83;408;10011"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-10 00:00:00;101;616.11;150;3080"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-11 00:00:00;101;705.11;417;10602"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-12 00:00:00;101;747.82;202;4111"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-13 00:00:00;101;932.71;319;9497"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-14 00:00:00;101;938.49;248;5294"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-15 00:00:00;101;1003.96;336;7355"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-16 00:00:00;101;953.72;605;18202"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-17 00:00:00;101;877.76;257;6517"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-18 00:00:00;101;1070.5;253;6750"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-19 00:00:00;101;1084.23;287;7785"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-20 00:00:00;101;1013.32;427;12257"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-21 00:00:00;101;1362.63;347;7081"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-22 00:00:00;101;1393.14;356;10000"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-23 00:00:00;101;1452.96;465;8575"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-24 00:00:00;101;1506.28;613;18407"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-25 00:00:00;101;1279.05;459;8415"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-25 00:00:00;102;428.23;423;34745"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-26 00:00:00;102;522.09;842;74014"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-27 00:00:00;102;721.17;876;66424"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-28 00:00:00;102;746.45;864;48764"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-29 00:00:00;102;877.51;1167;89959"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-30 00:00:00;102;787.58;1003;119848"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-31 00:00:00;102;934.36;931;109339"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-01 00:00:00;102;907.11;644;61949"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-02 00:00:00;102;927.99;937;52473"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-03 00:00:00;102;1020.09;870;55711"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-04 00:00:00;102;1080.36;879;75270"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-05 00:00:00;102;1288.87;1137;85119"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-06 00:00:00;102;1146.07;858;76553"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-07 00:00:00;102;1244.5;2301;165433"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-08 00:00:00;102;1517.44;2937;223840"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-09 00:00:00;102;1384.0;1208;123977"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-25 00:00:00;103;531.36;364;15134"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-26 00:00:00;103;507.64;367;31361"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-27 00:00:00;103;717.69;313;22568"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-28 00:00:00;103;737.37;336;18332"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-29 00:00:00;103;777.46;641;56245"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-30 00:00:00;103;937.43;402;20619"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-01-31 00:00:00;103;860.94;617;29536"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-01 00:00:00;103;1087.39;471;21706"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-02 00:00:00;103;1082.9;1148;92398"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-03 00:00:00;103;1237.85;676;66680"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-04 00:00:00;103;1032.46;535;53096"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-05 00:00:00;103;1113.52;642;31503"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-06 00:00:00;103;1366.25;1156;55892"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-07 00:00:00;103;1265.41;935;44109"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-08 00:00:00;103;1505.37;670;33729"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-02-09 00:00:00;103;1538.6;1603;103314"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-10 00:00:00;104;799.86;181;4330"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-11 00:00:00;104;1161.96;342;6351"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-12 00:00:00;104;1213.92;375;8375"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-13 00:00:00;104;1259.5;343;8926"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-14 00:00:00;104;1336.97;389;11015"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-15 00:00:00;104;1961.77;449;7816"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-16 00:00:00;104;1831.83;1184;20466"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-17 00:00:00;104;2034.56;462;7842"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-18 00:00:00;104;2491.2;1045;25148"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-19 00:00:00;104;2681.47;1094;31181"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-20 00:00:00;104;2643.49;613;12047"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-10 00:00:00;105;884.61;916;47646"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-11 00:00:00;105;1192.53;1148;64585"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-12 00:00:00;105;1350.28;655;32021"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-13 00:00:00;105;1470.45;1042;72341"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-14 00:00:00;105;1704.26;782;33991"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-15 00:00:00;105;1947.62;1166;66542"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-16 00:00:00;105;2076.65;1090;53094"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-17 00:00:00;105;2263.88;978;64897"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-18 00:00:00;105;2168.56;2259;120969"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-19 00:00:00;105;2088.19;1312;72327"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-20 00:00:00;105;2432.75;1348;128902"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-10 00:00:00;106;746.15;2820;103661"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-11 00:00:00;106;923.36;4516;127571"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-12 00:00:00;106;1109.55;4940;227576"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-13 00:00:00;106;1199.8;5816;188753"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-14 00:00:00;106;1623.82;6621;167547"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-15 00:00:00;106;1741.27;10579;294649"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-16 00:00:00;106;1775.04;9452;438218"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-17 00:00:00;106;1783.27;6096;166014"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-18 00:00:00;106;2385.08;13119;559066"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-19 00:00:00;106;2175.88;14501;468007"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-03-20 00:00:00;106;2766.53;11922;465727"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-20 00:00:00;107;1016.38;321;6638"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-21 00:00:00;107;1009.95;450;11062"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-22 00:00:00;107;1207.88;782;23355"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-23 00:00:00;107;1042.95;642;11533"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-24 00:00:00;107;1372.68;469;14240"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-25 00:00:00;107;1376.42;471;13382"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-26 00:00:00;107;1437.04;533;10995"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-27 00:00:00;107;1615.29;987;23934"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-28 00:00:00;107;1700.49;565;10144"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-29 00:00:00;107;1806.98;908;28271"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-30 00:00:00;107;1888.48;1195;25119"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-01 00:00:00;107;2147.92;665;15968"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-02 00:00:00;107;2068.85;719;15506"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-03 00:00:00;107;2343.96;881;14973"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-04 00:00:00;107;2418.26;1158;36096"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-05 00:00:00;107;1973.76;1269;38649"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-06 00:00:00;107;2456.4;1433;36214"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-07 00:00:00;107;2664.64;1697;31175"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-08 00:00:00;107;2337.37;1260;24753"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-09 00:00:00;107;2687.37;650;12487"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-10 00:00:00;107;2916.94;1243;35189"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-11 00:00:00;107;2967.27;756;12660"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-12 00:00:00;107;2771.41;1059;19871"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-20 00:00:00;108;903.36;379;16567"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-21 00:00:00;108;1012.87;487;22844"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-22 00:00:00;108;987.67;423;24063"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-23 00:00:00;108;1325.65;986;42077"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-24 00:00:00;108;1250.64;1528;64798"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-25 00:00:00;108;1210.69;901;37153"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-26 00:00:00;108;1664.32;937;48106"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-27 00:00:00;108;1528.36;1177;78834"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-28 00:00:00;108;1723.42;828;37853"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-29 00:00:00;108;1874.72;1962;112653"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-30 00:00:00;108;1570.71;905;54442"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-01 00:00:00;108;2118.03;1516;128955"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-02 00:00:00;108;1771.14;845;43843"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-03 00:00:00;108;1822.15;1932;94177"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-04 00:00:00;108;1879.73;855;41517"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-05 00:00:00;108;1960.69;2076;83711"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-06 00:00:00;108;2240.73;1566;70565"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-07 00:00:00;108;2738.81;1106;51923"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-08 00:00:00;108;2408.2;2556;118020"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-09 00:00:00;108;2632.62;1730;73319"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-10 00:00:00;108;2361.69;1442;141785"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-11 00:00:00;108;2733.83;3052;259033"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-12 00:00:00;108;2519.46;1323;62433"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-20 00:00:00;109;972.4;665;56601"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-21 00:00:00;109;968.38;707;69070"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-22 00:00:00;109;1276.96;2493;140857"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-23 00:00:00;109;1041.92;748;56337"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-24 00:00:00;109;1484.96;2587;191084"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-25 00:00:00;109;1574.16;1538;107597"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-26 00:00:00;109;1552.23;1626;113900"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-27 00:00:00;109;1591.64;1135;134248"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-28 00:00:00;109;1530.94;1055;62416"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-29 00:00:00;109;1701.91;1519;140990"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-04-30 00:00:00;109;1641.65;1703;147656"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-01 00:00:00;109;1944.96;3366;189698"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-02 00:00:00;109;2272.92;1897;141980"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-03 00:00:00;109;1951.56;1485;100018"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-04 00:00:00;109;1937.85;1373;84620"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-05 00:00:00;109;2544.89;2076;146878"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-06 00:00:00;109;2271.45;1585;95134"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-07 00:00:00;109;2085.34;3961;336687"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-08 00:00:00;109;2734.06;1838;193388"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-09 00:00:00;109;2660.35;3020;170629"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-10 00:00:00;109;2947.93;2202;173564"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-11 00:00:00;109;2689.25;3477;406013"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-05-12 00:00:00;109;3157.42;2404;133576"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-01 00:00:00;110;1862.68;883;36530"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-02 00:00:00;110;2392.47;1960;116957"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-03 00:00:00;110;2220.51;916;47976"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-04 00:00:00;110;2601.09;1339;69479"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-05 00:00:00;110;3030.07;3051;151990"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-06 00:00:00;110;3519.17;1665;93526"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-07 00:00:00;110;4235.75;2436;132290"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-08 00:00:00;110;4634.65;3119;259695"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-09 00:00:00;110;3861.49;1853;95987"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-10 00:00:00;110;5126.11;4411;366192"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-11 00:00:00;110;4411.51;3160;167650"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-12 00:00:00;110;5318.95;3445;146207"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-01 00:00:00;111;1748.8;574;10727"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-02 00:00:00;111;2098.14;623;11150"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-03 00:00:00;111;2835.41;1460;25260"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-04 00:00:00;111;2824.9;1241;28350"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-05 00:00:00;111;3620.48;1215;30479"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-06 00:00:00;111;3637.85;1638;50749"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-07 00:00:00;111;3404.46;1806;52261"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-08 00:00:00;111;3712.93;1084;30572"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-09 00:00:00;111;4289.03;1023;23134"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-10 00:00:00;111;5073.19;2515;70312"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-11 00:00:00;111;4452.29;2218;57824"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-06-12 00:00:00;111;4964.03;2810;83583"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-01 00:00:00;112;508.92;358;20397"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-02 00:00:00;112;652.07;752;34195"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-03 00:00:00;112;701.5;747;32332"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-04 00:00:00;112;827.04;915;64649"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-05 00:00:00;112;865.92;417;32660"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-06 00:00:00;112;777.54;543;31445"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-07 00:00:00;112;942.87;660;38965"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-08 00:00:00;112;1041.27;1207;87549"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-09 00:00:00;112;1093.86;471;26647"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-10 00:00:00;112;1097.27;1117;66841"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-11 00:00:00;112;1156.76;954;67955"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-12 00:00:00;112;1159.96;1390;93721"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-13 00:00:00;112;1153.7;850;72055"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-14 00:00:00;112;1476.64;816;40422"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-15 00:00:00;112;1500.3;910;80503"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-16 00:00:00;112;1455.3;809;38193"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-17 00:00:00;112;1467.31;1442;101145"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-18 00:00:00;112;1492.83;786;42345"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-19 00:00:00;112;1545.77;624;32693"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-20 00:00:00;112;1542.28;1585;128936"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-01 00:00:00;113;515.55;780;79062"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-02 00:00:00;113;577.07;856;50448"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-03 00:00:00;113;590.5;576;47587"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-04 00:00:00;113;840.59;1373;114621"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-05 00:00:00;113;904.77;662;40938"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-06 00:00:00;113;789.95;1177;80141"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-07 00:00:00;113;1027.86;972;70865"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-08 00:00:00;113;905.33;713;72235"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-09 00:00:00;113;973.68;1052;80452"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-10 00:00:00;113;1002.82;1631;115622"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-11 00:00:00;113;1072.91;992;103943"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-12 00:00:00;113;1197.48;1159;136061"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-13 00:00:00;113;1201.13;1893;219255"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-14 00:00:00;113;1516.07;1843;114480"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-15 00:00:00;113;1278.91;1082;69348"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-16 00:00:00;113;1480.57;1523;125676"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-17 00:00:00;113;1430.1;1000;61326"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-18 00:00:00;113;1773.95;2841;185581"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-19 00:00:00;113;1827.96;2683;309637"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-07-20 00:00:00;113;1795.37;1670;101715"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-10 00:00:00;114;400.85;571;59253"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-11 00:00:00;114;364.26;277;18905"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-12 00:00:00;114;444.94;518;30884"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-13 00:00:00;114;463.26;351;28326"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-14 00:00:00;114;496.5;515;46759"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-15 00:00:00;114;593.38;591;57255"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-16 00:00:00;114;659.8;746;55524"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-17 00:00:00;114;702.34;624;68055"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-18 00:00:00;114;750.28;665;58595"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-19 00:00:00;114;623.93;482;33941"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-20 00:00:00;114;743.86;533;33551"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-21 00:00:00;114;692.49;853;81355"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-22 00:00:00;114;869.41;1629;118914"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-23 00:00:00;114;913.63;663;58051"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-24 00:00:00;114;968.94;1586;96328"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-25 00:00:00;114;817.71;911;57033"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-26 00:00:00;114;856.86;1174;77122"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-27 00:00:00;114;1059.87;928;62117"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-28 00:00:00;114;1044.28;1389;121236"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-29 00:00:00;114;965.88;685;49515"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-30 00:00:00;114;1071.85;1114;63756"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-10 00:00:00;115;329.94;183;10404"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-11 00:00:00;115;418.6;503;21792"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-12 00:00:00;115;499.17;283;13838"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-13 00:00:00;115;539.38;269;21891"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-14 00:00:00;115;527.33;287;17540"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-15 00:00:00;115;591.53;247;10341"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-16 00:00:00;115;580.49;584;23574"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-17 00:00:00;115;689.65;681;28598"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-18 00:00:00;115;736.38;437;23159"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-19 00:00:00;115;678.45;759;50505"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-20 00:00:00;115;803.38;994;66255"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-21 00:00:00;115;749.67;437;18363"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-22 00:00:00;115;772.78;556;26397"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-23 00:00:00;115;834.8;706;42057"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-24 00:00:00;115;788.55;716;40971"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-25 00:00:00;115;898.2;381;24682"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-26 00:00:00;115;980.56;523;51292"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-27 00:00:00;115;1043.02;945;38704"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-28 00:00:00;115;922.39;612;54254"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-29 00:00:00;115;1227.07;742;39195"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-30 00:00:00;115;961.23;463;35212"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-10 00:00:00;116;412.21;194;5431"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-11 00:00:00;116;348.74;119;2534"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-12 00:00:00;116;384.31;100;2293"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-13 00:00:00;116;482.21;170;4045"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-14 00:00:00;116;524.75;266;7501"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-15 00:00:00;116;612.3;141;3422"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-16 00:00:00;116;548.66;159;3762"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-17 00:00:00;116;536.87;272;5283"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-18 00:00:00;116;694.43;439;11975"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-19 00:00:00;116;643.2;182;5949"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-20 00:00:00;116;649.0;166;4695"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-21 00:00:00;116;808.73;365;11066"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-22 00:00:00;116;747.7;203;3646"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-23 00:00:00;116;930.85;345;6894"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-24 00:00:00;116;805.55;338;5941"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-25 00:00:00;116;786.09;447;12335"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-26 00:00:00;116;821.42;401;8443"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-27 00:00:00;116;970.8;232;4255"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-28 00:00:00;116;982.13;431;10412"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-29 00:00:00;116;1096.81;476;9769"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-09-30 00:00:00;116;1074.69;340;7891"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-01 00:00:00;117;372.24;177;14626"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-02 00:00:00;117;406.35;249;10632"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-03 00:00:00;117;444.78;292;28247"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-04 00:00:00;117;423.52;246;12613"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-05 00:00:00;117;470.68;453;20111"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-06 00:00:00;117;648.29;382;30377"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-07 00:00:00;117;588.15;707;29813"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-08 00:00:00;117;623.28;350;24803"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-09 00:00:00;117;797.91;418;18622"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-10 00:00:00;117;798.51;975;80890"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-11 00:00:00;117;1093.72;478;25209"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-12 00:00:00;117;1121.91;581;45999"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-13 00:00:00;117;1365.57;903;57343"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-14 00:00:00;117;1362.23;1548;123896"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-15 00:00:00;117;1618.51;1720;90301"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-16 00:00:00;117;1556.02;1064;74247"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-17 00:00:00;117;1797.52;888;61424"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-18 00:00:00;117;2137.14;1328;66549"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-19 00:00:00;117;2643.11;1292;97700"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-20 00:00:00;117;2239.62;1797;94947"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-01 00:00:00;118;283.94;94;1962"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-02 00:00:00;118;347.71;91;2741"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-03 00:00:00;118;356.06;96;2139"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-04 00:00:00;118;480.82;171;4573"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-05 00:00:00;118;556.13;142;2793"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-06 00:00:00;118;527.34;161;3943"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-07 00:00:00;118;553.92;130;3811"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-08 00:00:00;118;799.11;281;7903"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-09 00:00:00;118;795.01;193;3713"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-10 00:00:00;118;956.15;275;5416"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-11 00:00:00;118;1078.83;479;10720"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-12 00:00:00;118;997.98;223;3823"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-13 00:00:00;118;1046.75;289;5003"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-14 00:00:00;118;1224.74;382;6647"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-15 00:00:00;118;1299.43;361;9275"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-16 00:00:00;118;1899.22;430;7372"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-17 00:00:00;118;1864.34;456;8240"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-18 00:00:00;118;1981.68;497;15975"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-19 00:00:00;118;2404.36;1097;32632"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-20 00:00:00;118;2275.41;634;15772"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-01 00:00:00;119;350.22;3097;117730"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-02 00:00:00;119;370.24;1434;54369"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-03 00:00:00;119;423.49;1527;47250"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-04 00:00:00;119;418.64;3991;106705"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-05 00:00:00;119;434.65;1580;51669"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-06 00:00:00;119;640.59;2466;61713"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-07 00:00:00;119;602.99;2379;84847"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-08 00:00:00;119;699.76;3103;82805"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-09 00:00:00;119;899.17;3544;124985"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-10 00:00:00;119;854.97;3454;139411"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-11 00:00:00;119;862.42;5045;195962"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-12 00:00:00;119;1022.52;6969;334375"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-13 00:00:00;119;1038.9;3491;122253"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-14 00:00:00;119;1307.53;5542;227456"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-15 00:00:00;119;1714.56;6664;305853"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-16 00:00:00;119;1643.07;5956;153131"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-17 00:00:00;119;1860.5;8354;357915"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-18 00:00:00;119;2404.15;16429;422832"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-19 00:00:00;119;2441.78;11021;364285"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-20 00:00:00;119;2395.59;17705;725325"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-21 00:00:00;120;1826.69;716;22561"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-22 00:00:00;120;2420.29;583;10080"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-23 00:00:00;120;3067.65;1517;36216"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-24 00:00:00;120;3623.19;1009;29147"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-25 00:00:00;120;4634.47;2132;58069"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-26 00:00:00;120;5388.6;1643;34660"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-27 00:00:00;120;5887.16;1424;37505"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-28 00:00:00;120;7507.85;1802;30714"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-29 00:00:00;120;11788.95;3000;60414"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-30 00:00:00;120;13591.31;7718;182659"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-21 00:00:00;121;1620.96;1305;62586"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-22 00:00:00;121;2119.08;2259;169814"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-23 00:00:00;121;2817.92;3031;133124"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-24 00:00:00;121;3357.78;2076;109922"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-25 00:00:00;121;4645.71;3339;165540"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-26 00:00:00;121;5434.58;4333;186932"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-27 00:00:00;121;7308.09;3807;167276"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-28 00:00:00;121;9377.38;4678;207402"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-29 00:00:00;121;11263.67;5757;298612"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-30 00:00:00;121;14402.0;13464;580018"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-21 00:00:00;122;1873.33;3539;217675"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-22 00:00:00;122;1885.48;2257;146225"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-23 00:00:00;122;2399.23;1820;111510"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-24 00:00:00;122;3370.21;6655;612214"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-25 00:00:00;122;4381.86;2958;206591"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-26 00:00:00;122;4945.45;4361;325451"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-27 00:00:00;122;7272.7;11981;767507"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-28 00:00:00;122;8551.23;5845;511878"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-29 00:00:00;122;11056.8;7721;855503"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-30 00:00:00;122;15143.02;12747;1468824"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-21 00:00:00;123;1584.7;6558;307209"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-22 00:00:00;123;2174.01;12850;396380"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-23 00:00:00;123;2307.06;8410;213074"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-24 00:00:00;123;3835.68;15346;678974"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-25 00:00:00;123;4561.36;43475;2126699"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-26 00:00:00;123;5047.46;25527;720935"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-27 00:00:00;123;7078.36;37415;1468837"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-28 00:00:00;123;9706.37;52399;1805135"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-29 00:00:00;123;9560.64;36919;1089903"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-11-30 00:00:00;123;12265.63;105305;3133146"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-05 00:00:00;124;1200.97;275;7963"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-06 00:00:00;124;1395.36;322;7560"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-07 00:00:00;124;1624.74;603;15774"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-08 00:00:00;124;1941.75;711;12512"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-09 00:00:00;124;1682.86;786;25408"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-10 00:00:00;124;2056.34;789;14106"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-11 00:00:00;124;2085.6;473;13299"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-12 00:00:00;124;2485.65;649;12215"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-13 00:00:00;124;2619.32;692;14184"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-14 00:00:00;124;2231.82;1397;24242"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-15 00:00:00;124;2737.64;703;15817"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-16 00:00:00;124;2461.48;1312;25945"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-17 00:00:00;124;2855.39;1358;30347"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-18 00:00:00;124;2653.0;817;21460"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-19 00:00:00;124;3472.21;1428;32709"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-20 00:00:00;124;2836.39;1651;39521"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-21 00:00:00;124;3438.13;1041;26864"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-22 00:00:00;124;3804.86;932;17454"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-23 00:00:00;124;3215.04;1092;32943"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-24 00:00:00;124;3566.72;799;23311"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-05 00:00:00;125;1288.2;695;33841"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-06 00:00:00;125;1449.76;1775;119152"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-07 00:00:00;125;1568.21;1651;108195"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-08 00:00:00;125;1458.12;1561;97844"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-09 00:00:00;125;1629.44;923;45374"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-10 00:00:00;125;2144.22;1880;150252"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-11 00:00:00;125;1853.08;984;47773"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-12 00:00:00;125;1923.63;804;74585"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-13 00:00:00;125;2403.2;1198;51941"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-14 00:00:00;125;2670.6;1234;81766"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-15 00:00:00;125;2894.9;3092;132011"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-16 00:00:00;125;2820.43;1288;76736"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-17 00:00:00;125;3041.99;1794;85535"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-18 00:00:00;125;2668.95;2956;215663"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-19 00:00:00;125;2862.08;1254;94369"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-20 00:00:00;125;3797.74;2766;217251"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-21 00:00:00;125;3759.56;1958;112059"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-22 00:00:00;125;3654.3;1806;134506"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-23 00:00:00;125;4285.67;1744;88281"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2024-12-24 00:00:00;125;3517.42;1797;162140"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-05 00:00:00;126;520.16;327;14202"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-06 00:00:00;126;659.08;319;19472"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-07 00:00:00;126;642.01;448;18053"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-08 00:00:00;126;628.61;276;14775"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-09 00:00:00;126;770.85;379;21907"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-10 00:00:00;126;935.67;401;24562"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-11 00:00:00;126;837.41;463;19547"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-12 00:00:00;126;870.82;468;24032"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-13 00:00:00;126;1080.3;1055;50874"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-14 00:00:00;126;1196.56;1082;79774"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-15 00:00:00;126;1280.53;1156;50666"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-16 00:00:00;126;1175.24;963;41758"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-17 00:00:00;126;1213.81;724;47048"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-18 00:00:00;126;1326.13;1230;77523"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-19 00:00:00;126;1535.84;1239;62414"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-20 00:00:00;126;1328.8;628;52494"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-21 00:00:00;126;1664.0;1058;78134"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-22 00:00:00;126;1320.75;1213;68159"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-23 00:00:00;126;1493.82;676;41060"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-24 00:00:00;126;1504.09;813;39462"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-25 00:00:00;126;1514.72;1396;132321"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-05 00:00:00;127;600.72;172;3887"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-06 00:00:00;127;680.74;173;3637"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-07 00:00:00;127;747.49;353;10582"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-08 00:00:00;127;678.85;406;8838"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-09 00:00:00;127;888.17;548;16278"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-10 00:00:00;127;829.34;192;4862"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-11 00:00:00;127;899.45;553;16052"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-12 00:00:00;127;1092.81;248;8226"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-13 00:00:00;127;1146.54;335;5978"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-14 00:00:00;127;1051.31;345;7724"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-15 00:00:00;127;1178.04;613;19838"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-16 00:00:00;127;1110.09;307;8514"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-17 00:00:00;127;1298.27;294;8958"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-18 00:00:00;127;1356.96;479;8546"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-19 00:00:00;127;1215.86;339;6147"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-20 00:00:00;127;1589.4;447;9952"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-21 00:00:00;127;1510.0;367;7788"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-22 00:00:00;127;1301.16;303;5978"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-23 00:00:00;127;1653.8;770;15472"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-24 00:00:00;127;1574.92;456;13735"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-01-25 00:00:00;127;1762.5;391;12433"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-10 00:00:00;128;637.5;465;29386"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-11 00:00:00;128;743.34;600;35745"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-12 00:00:00;128;778.51;941;64118"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-13 00:00:00;128;955.18;756;47314"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-14 00:00:00;128;928.99;704;76504"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-15 00:00:00;128;1033.78;2044;181755"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-16 00:00:00;128;1049.24;1170;78236"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-17 00:00:00;128;1126.92;1187;114404"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-18 00:00:00;128;1191.67;1638;187586"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-19 00:00:00;128;1352.35;1157;81508"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-20 00:00:00;128;1369.35;1556;93547"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-21 00:00:00;128;1465.72;1496;181192"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-22 00:00:00;128;1457.37;1655;138052"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-23 00:00:00;128;1641.67;1588;112791"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-24 00:00:00;128;1809.17;1377;90704"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-25 00:00:00;128;1987.85;3835;385126"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-26 00:00:00;128;1552.6;1353;79680"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-27 00:00:00;128;1748.79;1225;142397"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-28 00:00:00;128;2223.88;2611;289653"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-10 00:00:00;129;653.04;528;36992"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-11 00:00:00;129;686.56;317;17525"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-12 00:00:00;129;756.18;411;19814"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-13 00:00:00;129;814.78;542;45822"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-14 00:00:00;129;856.68;437;34351"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-15 00:00:00;129;1027.86;512;44125"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-16 00:00:00;129;1115.1;902;36900"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-17 00:00:00;129;1160.15;534;29254"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-18 00:00:00;129;1069.09;569;23443"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-19 00:00:00;129;1351.62;616;26479"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-20 00:00:00;129;1271.57;1095;57136"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-21 00:00:00;129;1418.48;636;27063"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-22 00:00:00;129;1462.96;1216;56016"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-23 00:00:00;129;1494.81;679;41513"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-24 00:00:00;129;1760.23;1828;94431"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-25 00:00:00;129;1723.55;959;76596"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-26 00:00:00;129;1951.18;860;64900"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-27 00:00:00;129;1664.8;1981;100919"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-02-28 00:00:00;129;2030.67;1174;87097"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-10 00:00:00;130;1188.8;397;6657"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-11 00:00:00;130;1235.94;344;8165"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-12 00:00:00;130;1583.58;433;8528"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-13 00:00:00;130;2122.25;1125;33964"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-14 00:00:00;130;2220.9;686;17946"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-15 00:00:00;130;2020.34;1149;20219"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-16 00:00:00;130;2308.17;934;25380"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-17 00:00:00;130;2653.78;1553;34078"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-18 00:00:00;130;2615.8;670;18102"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-19 00:00:00;130;3275.74;791;15971"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-20 00:00:00;130;3502.39;1416;35408"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-10 00:00:00;131;1214.81;487;24438"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-11 00:00:00;131;1411.29;691;40699"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-12 00:00:00;131;1404.88;800;32834"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-13 00:00:00;131;1669.48;846;65006"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-14 00:00:00;131;2103.22;2180;130106"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-15 00:00:00;131;2489.74;1790;89617"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-16 00:00:00;131;2768.69;1165;86170"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-17 00:00:00;131;2690.67;2540;102060"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-18 00:00:00;131;3390.71;1973;87183"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-19 00:00:00;131;3257.24;1751;154451"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-20 00:00:00;131;3733.69;3670;163905"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-10 00:00:00;132;1253.84;5186;250250"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-11 00:00:00;132;1305.31;8552;314380"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-12 00:00:00;132;1418.23;4934;158771"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-13 00:00:00;132;1741.74;9708;335405"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-14 00:00:00;132;2143.65;10552;274878"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-15 00:00:00;132;2309.96;7740;209028"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-16 00:00:00;132;2320.87;8111;363276"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-17 00:00:00;132;3038.7;17253;459351"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-18 00:00:00;132;3337.56;12778;356921"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-19 00:00:00;132;3047.22;26227;934688"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-03-20 00:00:00;132;3128.42;13090;486219"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-20 00:00:00;133;1348.97;340;10007"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-21 00:00:00;133;1571.44;368;8248"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-22 00:00:00;133;1589.87;419;11888"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-23 00:00:00;133;1665.3;617;17940"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-24 00:00:00;133;1716.25;1006;32689"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-25 00:00:00;133;1701.43;387;8325"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-26 00:00:00;133;2318.01;828;21039"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-27 00:00:00;133;2161.03;766;23093"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-28 00:00:00;133;2376.66;1106;22762"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-29 00:00:00;133;2511.89;1284;40326"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-30 00:00:00;133;2739.67;951;29957"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-01 00:00:00;133;3043.53;1818;35751"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-02 00:00:00;133;3175.79;1432;41788"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-03 00:00:00;133;2567.61;1065;32242"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-04 00:00:00;133;3193.97;1893;41804"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-05 00:00:00;133;3611.5;916;18903"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-06 00:00:00;133;3076.55;912;19907"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-07 00:00:00;133;3314.5;1751;30937"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-08 00:00:00;133;3460.0;1660;40455"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-09 00:00:00;133;3542.51;889;17093"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-10 00:00:00;133;4063.18;2650;62375"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-11 00:00:00;133;3860.97;2478;65565"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-20 00:00:00;134;1395.3;1350;74876"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-21 00:00:00;134;1296.39;1579;115949"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-22 00:00:00;134;1760.72;814;33369"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-23 00:00:00;134;1657.95;1680;92209"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-24 00:00:00;134;1762.81;788;68693"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-25 00:00:00;134;1903.8;1804;121316"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-26 00:00:00;134;2178.62;1353;86518"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-27 00:00:00;134;2088.77;1321;60665"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-28 00:00:00;134;2548.54;1051;48203"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-29 00:00:00;134;2270.47;1152;69548"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-30 00:00:00;134;2340.87;1049;99183"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-01 00:00:00;134;2969.51;1874;95817"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-02 00:00:00;134;2905.94;1251;63989"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-03 00:00:00;134;2995.63;3279;184460"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-04 00:00:00;134;2702.95;1316;74420"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-05 00:00:00;134;3313.09;3804;337476"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-06 00:00:00;134;3478.38;3770;340595"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-07 00:00:00;134;2893.53;1192;56593"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-08 00:00:00;134;3358.27;2575;168901"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-09 00:00:00;134;3935.79;2045;160041"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-10 00:00:00;134;3391.89;3506;176140"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-11 00:00:00;134;4190.65;3350;324795"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-20 00:00:00;135;1132.0;771;70382"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-21 00:00:00;135;1531.98;1362;115234"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-22 00:00:00;135;1404.72;2260;159715"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-23 00:00:00;135;1801.12;1574;118318"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-24 00:00:00;135;1541.68;1049;65615"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-25 00:00:00;135;1791.79;1210;86312"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-26 00:00:00;135;2084.09;1669;103550"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-27 00:00:00;135;2258.32;3595;315830"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-28 00:00:00;135;2573.17;3551;302943"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-29 00:00:00;135;2354.6;2506;177360"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-04-30 00:00:00;135;2862.71;3864;419315"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-01 00:00:00;135;2409.58;1737;120140"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-02 00:00:00;135;2595.23;1972;118697"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-03 00:00:00;135;3197.74;2253;214114"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-04 00:00:00;135;3250.94;3384;206090"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-05 00:00:00;135;3358.6;2631;180680"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-06 00:00:00;135;2950.31;2823;158180"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-07 00:00:00;135;3834.44;7059;731642"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-08 00:00:00;135;3124.81;2548;157499"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-09 00:00:00;135;3323.67;3304;201377"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-10 00:00:00;135;4022.01;3859;277556"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-05-11 00:00:00;135;3892.44;4880;357503"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-01 00:00:00;136;2500.34;1328;62007"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-02 00:00:00;136;2386.35;1505;148422"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-03 00:00:00;136;2833.14;1392;55954"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-04 00:00:00;136;3057.13;2062;93722"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-05 00:00:00;136;3538.96;2029;96637"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-06 00:00:00;136;4441.99;3967;258760"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-07 00:00:00;136;5101.71;2928;290521"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-08 00:00:00;136;5510.39;6407;302416"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-09 00:00:00;136;5026.48;2069;133319"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-10 00:00:00;136;5620.13;5336;365878"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-11 00:00:00;136;7052.75;2828;182161"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-12 00:00:00;136;6641.56;3275;140600"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-01 00:00:00;137;2311.28;864;20387"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-02 00:00:00;137;2813.29;1863;38343"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-03 00:00:00;137;2933.24;755;23025"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-04 00:00:00;137;3566.93;1212;24599"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-05 00:00:00;137;3376.8;1042;22243"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-06 00:00:00;137;4370.74;1320;26245"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-07 00:00:00;137;5131.61;2221;40565"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-08 00:00:00;137;5107.59;2950;92894"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-09 00:00:00;137;5244.63;1360;26546"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-10 00:00:00;137;6441.17;2110;48835"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-11 00:00:00;137;5666.53;2280;52997"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-06-12 00:00:00;137;5913.02;2735;57042"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-01 00:00:00;138;880.19;368;18738"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-02 00:00:00;138;826.32;439;20151"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-03 00:00:00;138;820.79;548;24250"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-04 00:00:00;138;972.41;548;29123"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-05 00:00:00;138;985.12;695;46278"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-06 00:00:00;138;1002.6;1191;52991"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-07 00:00:00;138;1164.27;692;47787"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-08 00:00:00;138;1505.75;1213;73761"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-09 00:00:00;138;1568.25;702;54880"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-10 00:00:00;138;1626.51;1030;59729"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-11 00:00:00;138;1398.91;1492;71322"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-12 00:00:00;138;1650.58;1069;51044"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-13 00:00:00;138;1870.97;1748;91263"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-14 00:00:00;138;1615.15;777;39135"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-15 00:00:00;138;2153.61;2347;216197"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-16 00:00:00;138;1845.7;1482;108138"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-17 00:00:00;138;2305.84;1883;133742"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-18 00:00:00;138;2302.16;1471;67942"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-19 00:00:00;138;1927.53;1183;112621"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-20 00:00:00;138;1995.75;852;70479"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-01 00:00:00;139;773.16;848;73909"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-02 00:00:00;139;947.83;1816;124061"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-03 00:00:00;139;1055.78;995;57288"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-04 00:00:00;139;872.19;949;89514"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-05 00:00:00;139;1163.47;785;74299"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-06 00:00:00;139;1222.78;1751;128247"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-07 00:00:00;139;1235.81;839;59565"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-08 00:00:00;139;1269.88;2067;217293"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-09 00:00:00;139;1294.29;1723;104385"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-10 00:00:00;139;1518.52;1483;162117"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-11 00:00:00;139;1741.55;1424;164118"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-12 00:00:00;139;1755.36;1682;190762"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-13 00:00:00;139;1711.26;1737;179855"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-14 00:00:00;139;2056.02;1523;103674"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-15 00:00:00;139;1872.71;2053;141491"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-16 00:00:00;139;2001.66;3559;271161"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-17 00:00:00;139;2244.27;2339;274544"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-18 00:00:00;139;2319.39;3306;312293"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-19 00:00:00;139;1993.59;2401;154231"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-07-20 00:00:00;139;2310.51;3277;195311"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-10 00:00:00;140;616.74;834;66653"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-11 00:00:00;140;699.37;549;66371"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-12 00:00:00;140;579.17;600;35103"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-13 00:00:00;140;729.92;731;80731"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-14 00:00:00;140;813.6;615;52100"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-15 00:00:00;140;901.39;615;61269"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-16 00:00:00;140;894.27;1136;71318"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-17 00:00:00;140;965.53;851;53256"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-18 00:00:00;140;967.89;683;51236"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-19 00:00:00;140;946.36;791;49646"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-20 00:00:00;140;1049.05;772;45248"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-21 00:00:00;140;1087.57;733;77919"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-22 00:00:00;140;1111.92;1625;95927"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-23 00:00:00;140;1335.67;2048;165118"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-24 00:00:00;140;1378.16;2362;140393"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-25 00:00:00;140;1513.97;1506;85223"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-26 00:00:00;140;1407.49;948;64581"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-27 00:00:00;140;1559.14;2341;139185"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-28 00:00:00;140;1520.29;2295;282424"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-29 00:00:00;140;1638.46;1594;104913"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-30 00:00:00;140;1860.06;3210;209598"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-10 00:00:00;141;502.99;222;9961"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-11 00:00:00;141;618.01;307;20862"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-12 00:00:00;141;660.28;300;17763"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-13 00:00:00;141;690.77;421;18774"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-14 00:00:00;141;738.64;674;32591"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-15 00:00:00;141;913.97;941;69200"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-16 00:00:00;141;792.67;569;33959"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-17 00:00:00;141;1014.0;531;27493"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-18 00:00:00;141;954.82;428;25074"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-19 00:00:00;141;1206.14;642;53976"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-20 00:00:00;141;1168.74;864;42572"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-21 00:00:00;141;1015.09;925;40506"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-22 00:00:00;141;1121.14;504;35520"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-23 00:00:00;141;1331.3;672;37987"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-24 00:00:00;141;1254.28;1079;102783"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-25 00:00:00;141;1305.98;683;28370"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-26 00:00:00;141;1603.8;762;34911"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-27 00:00:00;141;1572.77;1265;53583"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-28 00:00:00;141;1633.7;932;79898"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-29 00:00:00;141;1584.04;1000;43537"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-30 00:00:00;141;1688.41;1167;47338"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-10 00:00:00;142;490.22;177;5662"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-11 00:00:00;142;654.48;153;3984"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-12 00:00:00;142;737.64;310;5407"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-13 00:00:00;142;776.52;198;6483"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-14 00:00:00;142;884.94;240;6131"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-15 00:00:00;142;914.83;390;6941"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-16 00:00:00;142;784.84;217;4694"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-17 00:00:00;142;829.35;372;12248"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-18 00:00:00;142;989.7;411;8571"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-19 00:00:00;142;990.42;412;7878"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-20 00:00:00;142;959.59;228;4103"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-21 00:00:00;142;1224.25;373;6570"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-22 00:00:00;142;1105.81;636;17103"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-23 00:00:00;142;1389.4;866;18237"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-24 00:00:00;142;1530.08;376;8237"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-25 00:00:00;142;1205.94;301;6274"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-26 00:00:00;142;1276.39;716;12498"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-27 00:00:00;142;1574.67;394;6989"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-28 00:00:00;142;1587.56;520;12117"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-29 00:00:00;142;1521.21;542;10184"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-09-30 00:00:00;142;1716.02;410;9468"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-01 00:00:00;143;472.24;261;12707"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-02 00:00:00;143;466.78;279;24127"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-03 00:00:00;143;545.51;334;16882"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-04 00:00:00;143;715.39;392;18530"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-05 00:00:00;143;704.15;374;33803"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-06 00:00:00;143;726.07;513;30022"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-07 00:00:00;143;755.0;727;51370"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-08 00:00:00;143;1112.8;816;47357"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-09 00:00:00;143;988.12;537;37789"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-10 00:00:00;143;1105.95;659;65360"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-11 00:00:00;143;1152.54;983;93168"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-12 00:00:00;143;1330.76;967;43877"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-13 00:00:00;143;1718.25;1027;71307"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-14 00:00:00;143;2118.68;1436;127007"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-15 00:00:00;143;2165.35;2179;143559"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-16 00:00:00;143;2338.14;1022;58724"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-17 00:00:00;143;2759.67;1109;92630"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-18 00:00:00;143;2705.54;1839;112632"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-19 00:00:00;143;3149.63;1344;64894"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-20 00:00:00;143;3725.76;2809;125643"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-01 00:00:00;144;516.36;130;4326"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-02 00:00:00;144;527.43;318;8428"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-03 00:00:00;144;490.42;148;2925"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-04 00:00:00;144;557.32;210;4806"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-05 00:00:00;144;675.22;362;8503"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-06 00:00:00;144;842.89;492;15182"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-07 00:00:00;144;836.07;193;3855"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-08 00:00:00;144;1027.15;397;8303"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-09 00:00:00;144;927.46;272;4738"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-10 00:00:00;144;1253.49;304;5877"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-11 00:00:00;144;1198.34;284;8876"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-12 00:00:00;144;1523.47;790;26028"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-13 00:00:00;144;1642.56;688;15432"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-14 00:00:00;144;1919.16;1176;34906"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-15 00:00:00;144;2128.68;841;16211"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-16 00:00:00;144;2439.53;604;11895"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-17 00:00:00;144;2547.11;723;18896"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-18 00:00:00;144;2733.03;706;16270"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-19 00:00:00;144;3525.68;888;15934"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-20 00:00:00;144;4060.01;1453;36723"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-01 00:00:00;145;465.54;2671;83412"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-02 00:00:00;145;537.95;2263;82317"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-03 00:00:00;145;508.61;2732;119552"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-04 00:00:00;145;703.96;4161;180214"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-05 00:00:00;145;602.77;2630;80334"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-06 00:00:00;145;746.35;6527;231514"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-07 00:00:00;145;824.65;3502;109043"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-08 00:00:00;145;935.29;6514;163830"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-09 00:00:00;145;1072.24;4511;197754"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-10 00:00:00;145;1207.29;11442;380017"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-11 00:00:00;145;1540.51;8711;419202"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-12 00:00:00;145;1295.89;7296;314475"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-13 00:00:00;145;1441.4;5737;196671"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-14 00:00:00;145;1757.13;6275;281102"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-15 00:00:00;145;2378.0;14607;386755"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-16 00:00:00;145;2405.0;9063;228400"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-17 00:00:00;145;2436.64;8338;300039"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-18 00:00:00;145;2801.97;16670;540739"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-19 00:00:00;145;2900.26;13762;446324"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-20 00:00:00;145;3892.49;14593;506546"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-21 00:00:00;146;2083.02;999;31484"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-22 00:00:00;146;2692.83;1165;19748"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-23 00:00:00;146;3619.86;1424;30033"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-24 00:00:00;146;3994.71;1410;28901"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-25 00:00:00;146;5620.68;2077;34723"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-26 00:00:00;146;7909.7;2346;49828"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-27 00:00:00;146;9261.49;4401;105150"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-28 00:00:00;146;9697.58;3313;71569"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-29 00:00:00;146;13008.71;2961;51690"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-30 00:00:00;146;19022.03;6135;109360"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-21 00:00:00;147;1996.34;931;78417"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-22 00:00:00;147;3075.9;2424;104679"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-23 00:00:00;147;4032.27;3829;226031"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-24 00:00:00;147;5125.97;3160;137671"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-25 00:00:00;147;5789.58;4025;281729"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-26 00:00:00;147;6467.56;3087;195403"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-27 00:00:00;147;8968.18;5478;293581"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-28 00:00:00;147;12486.28;5060;314017"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-29 00:00:00;147;15557.55;7409;398270"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-30 00:00:00;147;20273.43;17771;1526854"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-21 00:00:00;148;2483.52;2644;160537"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-22 00:00:00;148;3159.74;5617;333657"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-23 00:00:00;148;3503.09;3466;242956"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-24 00:00:00;148;5052.59;9733;762270"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-25 00:00:00;148;5957.06;4872;326425"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-26 00:00:00;148;6321.05;7907;682393"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-27 00:00:00;148;9754.26;12525;1239234"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-28 00:00:00;148;12796.4;25147;1398748"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-29 00:00:00;148;14917.13;11228;1025744"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-30 00:00:00;148;15235.11;12307;753115"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-21 00:00:00;149;2407.08;18721;533840"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-22 00:00:00;149;3054.45;13182;373191"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-23 00:00:00;149;3927.52;17634;809935"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-24 00:00:00;149;4462.96;38630;1372249"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-25 00:00:00;149;5482.3;48429;1795235"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-26 00:00:00;149;6271.13;23967;615267"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-27 00:00:00;149;7791.16;26771;879134"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-28 00:00:00;149;10575.61;91664;3054195"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-29 00:00:00;149;15417.3;63861;3040345"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-11-30 00:00:00;149;15548.55;86105;3323771"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-05 00:00:00;150;1436.98;367;6341"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-06 00:00:00;150;1651.53;391;9862"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-07 00:00:00;150;1848.66;848;17230"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-08 00:00:00;150;2314.51;699;17159"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-09 00:00:00;150;2282.54;1221;21549"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-10 00:00:00;150;2349.68;825;17340"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-11 00:00:00;150;2603.35;1517;30052"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-12 00:00:00;150;2464.49;676;12363"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-13 00:00:00;150;3091.56;979;21466"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-14 00:00:00;150;2674.21;698;18299"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-15 00:00:00;150;3153.87;1340;39394"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-16 00:00:00;150;3447.89;2073;39516"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-17 00:00:00;150;3290.31;2192;48352"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-18 00:00:00;150;3147.49;1351;26381"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-19 00:00:00;150;3305.45;822;27295"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-20 00:00:00;150;3665.22;984;24918"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-21 00:00:00;150;3635.32;1408;36943"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-22 00:00:00;150;4731.38;1939;36129"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-23 00:00:00;150;4975.58;1776;30995"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-24 00:00:00;150;4444.26;1011;30937"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-05 00:00:00;151;1624.32;990;62599"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-06 00:00:00;151;1767.6;885;87924"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-07 00:00:00;151;1675.8;832;41608"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-08 00:00:00;151;2306.66;1101;45380"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-09 00:00:00;151;2318.42;1774;153188"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-10 00:00:00;151;2545.99;1343;125247"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-11 00:00:00;151;2404.05;990;56551"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-12 00:00:00;151;2617.4;1658;126244"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-13 00:00:00;151;2721.61;1904;176536"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-14 00:00:00;151;3235.52;2145;96047"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-15 00:00:00;151;3488.81;3006;151357"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-16 00:00:00;151;3291.3;1433;108264"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-17 00:00:00;151;3666.47;2000;138604"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-18 00:00:00;151;3245.57;1701;80696"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-19 00:00:00;151;3594.15;1895;118980"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-20 00:00:00;151;4220.19;3706;158693"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-21 00:00:00;151;3865.09;2711;249370"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-22 00:00:00;151;3790.26;2260;161268"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-23 00:00:00;151;4900.26;5939;378607"
+    },
+    {
+        "date;campaign_id;spend_amount;clicks;impressions": "2025-12-24 00:00:00;151;4388.92;5269;444059"
+    }
+]
