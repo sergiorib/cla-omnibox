@@ -3,7 +3,8 @@ data/
 backup/
 *.pbix
 *.fig
-
+*.parquet 
+*.drawio.bkp
 
 # Arquivos de cache Python
 # Byte-compiled / optimized / DLL files
