@@ -1,0 +1,113 @@
+[
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "1;1;BAU-DIRECT;traffic;(none);direct;2024-01-01;2026-12-31;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "2;1;BAU-GOOGLE;traffic;organic;google;2024-01-01;2026-12-31;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "3;1;BAU-CRM;conversion;email;crm;2024-01-01;2026-12-31;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "4;1;BAU-GOOGLE;sales;cpc;google;2024-01-01;2026-12-31;509520.790"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "5;1;BAU-FACEBOOK;conversion;cpc;facebook;2024-01-01;2026-12-31;383530.790"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "6;1;BAU-TIKTOK;awareness;cpc;tiktok;2024-01-01;2026-12-31;135917.920"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "7;2;CONS24-GOOGLE;sales;cpc;google;2024-03-01;2024-03-31;16018.930"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "8;2;CONS24-FACEBOOK;conversion;cpc;facebook;2024-03-01;2024-03-31;12595.510"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "9;3;MAE24-GOOGLE;sales;cpc;google;2024-05-01;2024-05-15;43930.130"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "10;3;MAE24-INSTAGRAM;traffic;cpc;instagram;2024-05-01;2024-05-15;35974.840"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "11;3;MAE24-CRM;conversion;email;crm;2024-05-10;2024-05-15;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "12;4;NAMORADOS24-GOOGLE;sales;cpc;google;2024-06-01;2024-06-15;26341.680"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "13;4;NAMORADOS24-TIKTOK;awareness;cpc;tiktok;2024-06-01;2024-06-10;7910.760"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "14;5;INVERNO24-FACEBOOK;conversion;cpc;facebook;2024-07-01;2024-07-31;20448.180"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "15;6;SUDESTE24-FACEBOOK;conversion;cpc;facebook;2024-08-01;2024-08-31;14656.040"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "16;7;BF24-TIKTOK;awareness;cpc;tiktok;2024-11-01;2024-11-15;18107.390"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "17;7;BF24-FACEBOOK;traffic;cpc;facebook;2024-11-05;2024-11-30;108641.610"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "18;7;BF24-GOOGLE;sales;cpc;google;2024-11-20;2024-11-30;52978.010"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "19;7;BF24-CRM;conversion;email;crm;2024-11-25;2024-11-30;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "20;8;NATAL24-GOOGLE;sales;cpc;google;2024-12-01;2024-12-25;55478.980"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "21;8;NATAL24-INSTAGRAM;conversion;cpc;instagram;2024-12-01;2024-12-20;34970.600"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "22;8;NATAL24-CRM;conversion;email;crm;2024-12-15;2024-12-25;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "23;9;CONS25-GOOGLE;sales;cpc;google;2025-03-01;2025-03-31;21592.230"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "24;9;CONS25-FACEBOOK;conversion;cpc;facebook;2025-03-01;2025-03-31;17125.530"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "25;10;MAE25-GOOGLE;sales;cpc;google;2025-05-01;2025-05-15;60746.520"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "26;10;MAE25-INSTAGRAM;traffic;cpc;instagram;2025-05-01;2025-05-15;50865.640"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "27;10;MAE25-CRM;conversion;email;crm;2025-05-10;2025-05-15;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "28;11;NAMORADOS25-GOOGLE;sales;cpc;google;2025-06-01;2025-06-15;35977.160"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "29;11;NAMORADOS25-TIKTOK;awareness;cpc;tiktok;2025-06-01;2025-06-10;11299.900"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "30;12;SUL25-FACEBOOK;conversion;cpc;facebook;2025-08-01;2025-08-31;19679.130"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "31;13;BF25-TIKTOK;awareness;cpc;tiktok;2025-11-01;2025-11-15;28176.440"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "32;13;BF25-FACEBOOK;traffic;cpc;facebook;2025-11-05;2025-11-30;153651.210"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "33;13;BF25-GOOGLE;sales;cpc;google;2025-11-20;2025-11-30;77069.730"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "34;13;BF25-CRM;conversion;email;crm;2025-11-25;2025-11-30;0.000"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "35;14;NATAL25-GOOGLE;sales;cpc;google;2025-12-01;2025-12-25;71788.440"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "36;14;NATAL25-INSTAGRAM;conversion;cpc;instagram;2025-12-01;2025-12-20;47925.720"
+    },
+    {
+        "action_id;campaign_id;action_code;objective;medium;source;start_date;end_date;budget": "37;14;NATAL25-CRM;conversion;email;crm;2025-12-15;2025-12-25;0.000"
+    }
+]
