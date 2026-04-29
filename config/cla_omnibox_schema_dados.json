@@ -1,0 +1,143 @@
+{
+  "esquema": [
+    {
+      "tabela": "category",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "category_id", "tipo": "INTEGER","requerido": true,"unico": true,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "name", "tipo": "VARCHAR","requerido": true,"unico": true,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "description", "tipo": "VARCHAR","requerido": true,"unico": true,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }
+      ]
+    },
+    {
+      "tabela": "sub_category",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "sub_category_id", "tipo": "INTEGER","rJSON Formatterequerido": true,"unico":true,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "category_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": false, "fk": true,"fk_table":"category","fk_field":"category_id","aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "name", "tipo": "VARCHAR","requerido": true,"unico":true,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }
+      ]  
+    },  
+    {
+      "tabela": "products",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "product_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "name", "tipo": "VARCHAR","requerido": true,"unico":true,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "sku", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "sub_category_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": false, "fk": true,"fk_table":"sub_category","fk_field":"sub_category_id","aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "brand", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "cost", "tipo": "FLOAT" ,"requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+         { "nome": "markup", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null }  
+      ]
+    },      
+    {
+      "tabela": "customers",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "customer_id", "tipo": "INTEGER","requerido": true,"unico": true,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null},
+        { "nome": "first_name", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "last_name", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": true,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "email", "tipo": "VARCHAR", "requerido": true, "unico": false, "pk": false, "fk": false, "fk_table": null, "fk_field": null, "aceita_branco": false, "aceita_zero": null, "aceita_negativo": null, "formato": null, "regex": "^[\\p{L}0-9._%+-]+@[\\p{L}0-9.-]+\\.[\\p{L}]{2,}$", "lista_validacao": null },        { "nome": "gender", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": true,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "birth_date", "tipo": "DATE","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "city", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "state", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,"regex": null, "lista_validacao": ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"] },
+        { "nome": "signup_date", "tipo": "DATE","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }
+      ]
+    },
+    {
+      "tabela": "orders",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "order_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "customer_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": false, "fk": true,"fk_table": "customers","fk_field": "customer_id","aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "order_date", "tipo": "DATETIME","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null, "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "shipped_date", "tipo": "DATETIME","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "delivery_date", "tipo": "DATETIME","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "order_status", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "payment_method", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": true,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "transaction_id", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "action_code", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "free_shipping", "tipo": "INTEGER","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": true,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },   
+        { "nome": "shipping_cost", "tipo": "FLOAT","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "discount", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": true,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null }, 
+        { "nome": "net_amount", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "gross_amount", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null }
+      ]
+    },
+    {
+      "tabela": "order_items",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "order_item_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "order_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": false, "fk": true,"fk_table":"orders","fk_field":"order_id","aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "product_id", "tipo": "INTEGER","requerido": false,"pk": false, "fk": true,"fk_table":"products","fk_field":"product_id","aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "quantity", "tipo": "INTEGER","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "unit_cost", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "item_value", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "price","tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null }
+        
+
+ 
+      ]
+    },
+    {
+      "tabela": "mkt_campaigns",
+      "tolerancia_erros_percentual": 0.0,
+      "campos": [
+        { "nome": "campaign_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "name", "tipo": "VARCHAR","requerido": true,"unico":true,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "code", "tipo": "VARCHAR","requerido": true,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "description", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "start_date", "tipo": "DATE","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "end_date", "tipo": "DATE","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "budget", "tipo": "FLOAT","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }
+      ]
+    },
+    {
+      "tabela": "mkt_actions",
+      "tolerancia_erros_percentual": 2.0,
+      "campos": [
+        { "nome": "action_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "campaign_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":"mkt_campaign","fk_field":"campaign_id" ,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "action_code", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "objective", "tipo": "VARCHAR","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "source", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "medium", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "start_date", "tipo": "DATE","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "end_date", "tipo": "DATE","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "budget", "tipo": "FLOAT","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }     ]
+    },
+    {
+      "tabela": "mkt_spend",
+      "tolerancia_erros_percentual": 2.0,
+      "campos": [
+        { "nome": "date", "tipo": "DATE","requerido": true,"unico":false,"pk": true, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "action_id", "tipo": "INTEGER","requerido": true,"unico":false,"pk": true, "fk": true,"fk_table":"mkt_actions","fk_field":"action_id","aceita_branco": false,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "spend_amount", "tipo": "FLOAT","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": true,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "clicks", "tipo": "INTEGER","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "impressions", "tipo": "INTEGER","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }
+      ]
+    },
+    {
+      "tabela": "google_analytics",
+      "tolerancia_erros_percentual": 5.0,
+      "campos": [
+        { "nome": "event_name", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "event_date", "tipo": "DATE","requerido": true,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": false,  "aceita_negativo": null, "formato": null,  "regex": null, "lista_validacao": null },
+        { "nome": "event_timestamp", "tipo": "INTEGER","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "user_id", "tipo": "INTEGER","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "user_pseudo_id", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "region", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "ga_session_id", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "product_id", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "page_location", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "source", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "medium", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "campaign", "tipo": "VARCHAR","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": false,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "campaign_id", "tipo": "INTEGER","requerido": false,"unico":false,"pk": false, "fk": false,"fk_table":null,"fk_field":null ,"aceita_branco": null,  "aceita_zero": false,  "aceita_negativo": false, "formato": null,  "regex":  null, "lista_validacao": null },
+        { "nome": "transaction_id", "tipo": "VARCHAR","requerido": false,"pk": false, "fk": false,"fk_table":null,"fk_field":null,"aceita_branco": null,  "aceita_zero": null,  "aceita_negativo": null, "formato": null,  "regex":  null, "lista_validacao": null }     
+      ]
+    }
+  ]
+}
