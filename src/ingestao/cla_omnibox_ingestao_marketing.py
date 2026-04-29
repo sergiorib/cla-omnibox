@@ -1,3 +1,4 @@
+import sys
 import requests
 import pandas as pd
 import duckdb
@@ -17,7 +18,7 @@ def executar_ingestao_marketing(base_url: str = "http://127.0.0.1:8000", token: 
     diretorio_base = diretorio_atual.parents[1]
 
     # Caminho de saída (Bronze) 
-    diretorio_bronze = diretorio_base / "datalake" / "bronze" 
+    diretorio_bronze = diretorio_base / "dados" / "bronze" 
     diretorio_bronze.mkdir(parents=True, exist_ok=True)
             
     endpoints = ["campaigns", "actions", "spend"]
@@ -96,6 +97,7 @@ def executar_ingestao_marketing(base_url: str = "http://127.0.0.1:8000", token: 
 
 if __name__ == "__main__":
     import json
+    sys.stdout.reconfigure(encoding='utf-8')
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Iniciando Extração da API de Marketing...")
     resultado = executar_ingestao_marketing()
     print(json.dumps(resultado, indent=4, ensure_ascii=False))

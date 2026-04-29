@@ -14,8 +14,8 @@ def executar_ingestao_analytics() -> dict:
     diretorio_base = diretorio_atual.parents[1]
     
     # Definimos onde estão os brutos e onde será a saída
-    diretorio_raw = diretorio_base / "datalake" / "raw" / "google_analytics" 
-    diretorio_bronze = diretorio_base / "datalake" / "bronze" / "google_analytics" 
+    diretorio_raw = diretorio_base / "dados" / "raw" / "google_analytics" 
+    diretorio_bronze = diretorio_base / "dados" / "bronze" / "google_analytics" 
     
     # Cria a pasta de destino se não existir
     diretorio_bronze.mkdir(parents=True, exist_ok=True)

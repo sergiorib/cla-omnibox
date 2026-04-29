@@ -17,7 +17,7 @@ diretorio_atual = Path(__file__).resolve().parent
 diretorio_base = diretorio_atual.parents[1]
 
 # Caminho dos dados a serem disponibilizados pela API
-DIRETORIO_RAW = diretorio_base / "datalake" / "raw" / "marketing_api" 
+DIRETORIO_RAW = diretorio_base / "dados" / "raw" / "marketing_api" 
 
 # 2. Simulação de Segurança (Bearer Token)
 TOKEN_VALIDO = "omnibox_sec_token_2026"
@@ -40,7 +40,7 @@ def ler_e_paginar_json(nome_arquivo: str, page: int, size: int):
     caminho_arquivo = DIRETORIO_RAW / nome_arquivo
     
     if not caminho_arquivo.exists():
-        raise HTTPException(status_code=404, detail=f"Arquivo base {nome_arquivo} não encontrado no Datalake Raw.")
+        raise HTTPException(status_code=404, detail=f"Arquivo base {nome_arquivo} não encontrado no data Raw.")
         
     try:
         with open(caminho_arquivo, "r", encoding="utf-8") as f:

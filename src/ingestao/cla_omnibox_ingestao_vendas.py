@@ -2,7 +2,7 @@ import duckdb
 from pathlib import Path
 from datetime import datetime
 
-def executar_ingestao_erp(db_nome: str = "omnibox_erp.db") -> dict:
+def executar_ingestao_erp(db_nome: str = "omnibox_vendas_erp.db") -> dict:
     """
     Executa a ingestão de múltiplas tabelas do ERP para a camada Bronze.
     Aplica filtros de data e dependências relacionais.
@@ -13,10 +13,10 @@ def executar_ingestao_erp(db_nome: str = "omnibox_erp.db") -> dict:
     diretorio_base = diretorio_atual.parents[1]
 
     # Caminho de entrada (erp.db)
-    caminho_db = diretorio_base / "datalake" / "raw" / "vendas_erp" / db_nome
+    caminho_db = diretorio_base / "dados" / "raw" / "vendas_erp" / db_nome
 
     # Caminho de saída (Bronze) 
-    diretorio_bronze = diretorio_base / "datalake" / "bronze" 
+    diretorio_bronze = diretorio_base / "dados" / "bronze" 
     diretorio_bronze.mkdir(parents=True, exist_ok=True)
     
     data_corte = "2024-01-01"
