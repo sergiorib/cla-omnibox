@@ -1,0 +1,202 @@
+
+Medidas definidas no dashboard cla_omnibox.pbix
+
+Nome: clientes_total
+Descrição: Qtde acumulada de clientes cadastrados até final do ano selecionado
+Filtro: Ano 
+DAX: 
+CALCULATE( DISTINCTCOUNT(dim_clientes[id_cliente]), dim_clientes[dt_cadastro] <= MAX(dim_calendario[data]))
+
+Nome: clientes_total_aa
+Descrição: Qtde acumulada de clientes cadastrados até final do anterior ao selecionado, se houver
+Filtro: Ano
+DAX: 
+VAR ano_anterior = MIN(dim_calendario[ano]) -1 RETURN CALCULATE([clientes_total], REMOVEFILTERS(dim_calendario[ano]), dim_calendario[ano] = ano_anterior)
+
+Nome: clientes_total_aa%
+Descrição: Qtde de clientes que foram cadastrados até o final do ano anterior ao selecionado, se houver
+Filtro: Ano
+DAX: 
+DIVIDE(([clientes_total] - [clientes_total_aa]), [clientes_total_aa])
+
+
+Nome: clientes_novos
+Descrição: Qtde de clientes cadastrados no ano selecionado
+Filtro: Ano
+DAX: 
+SUM(fato_estatisticas_mensais[clientes_novos]) 
+
+Nome: clientes_novos_aa
+Descrição: Qtde de clientes cadastrados no ano anterior ao selecionado, se houver
+Filtro: ano
+DAX: 
+VAR ano_anterior = MIN(dim_calendario[ano]) -1 RETURN CALCULATE([clientes_novos], REMOVEFILTERS(dim_calendario[ano]), dim_calendario[ano] = ano_anterior)
+
+Nome: clientes_novos_aa%
+Descrição: Percentual de diferença entre a qtde. de clientes que possuem compras no ano atualmente selecionado e o anterior, se houver
+Filtro: Ano
+DAX: 
+DIVIDE(([clientes_novos] - [clientes_novos_aa]), [clientes_novos_aa])
+
+
+Nome: clientes_ativos 
+Descrição: Qtde de clientes ativos  
+Filtro: Ano 
+DAX: 
+SUM(fato_estatisticas_mensais[clientes_ativos]) 
+
+Nome: clientes_ativos_aa
+Descrição: Quantidade de clientes ativos do ano anterior ao selecionado, se houver
+Filtro: Ano 
+DAX: 
+VAR ano_anterior = MIN(dim_calendario[ano]) -1 
+RETURN CALCULATE([clientes_ativos], REMOVEFILTERS(dim_calendario[ano]),dim_calendario[ano] = ano_anterior)
+
+Nome: clientes_ativos_aa%
+Descrição: Percentual de diferença entre o clientes ativos do ano atualmente selecionado e o anterior, se houver
+Filtro: Ano 
+DAX: 
+DIVIDE(([clientes_ativos] - [clientes_ativos_aa]), [clientes_ativos_aa])
+
+
+Nome: clientes_ticket_medio
+Descrição: Valor do ticket médio no ano selecionado
+Filtro: Ano
+DAX: 
+DIVIDE(SUM(fato_Vendas[vlr_receita_liq]),DISTINCTCOUNT(dim_Clientes[id_cliente]); 0)
+
+Nome: clientes_recorrentes
+Descrição: Quantidade de clientes que voltaram a comprar no ano selecionado
+Filtro: Ano
+DAX: 
+[clientes_ativos] - [clientes_novos]
+
+Pasta: Conversão
+
+conversao_sessoes
+Descrição: Quantidade de sessões únicas no ano selecionado
+Filtro: Ano
+DAX: 
+SUM(fato_navegacao[qt_sessoes])
+
+conversao_etapa4 (Taxa Final)
+Descrição: 
+Filtro: Ano
+DAX:
+VAR vconversoes_etapa4 = CALCULATE(sum(fato_navegacao[qt_sessoes]); 
+fato_navegacao[etapa_numero] = 4) RETURN DIVIDE(vconversoes_etapa4; [conversao_sessoes])
+
+conversao_cor_medidor
+Descrição: Seleção da cor do medidor de conversão
+Filtro: Ano
+DAX:
+VAR ValorAtual = [conversao_etapa4] 
+VAR Minimo = 0.015 
+RETURN SWITCH(TRUE(); 
+ValorAtual < Minimo; "#A1343C"; "#018009")
+
+Pasta: Marketing
+
+mkt_Investimento
+Descrição: Valor total investido em marketing no ano selecionado
+Filtro: Ano
+DAX:
+SUM(fato_estatisticas_marketing[vlr_gasto])
+
+mkt_CAC
+Descrição: Valor do CAC no ano selecionado
+Filtro: Ano
+DAX:
+DIVIDE([mkt_Investimento],[clientes_novos])
+
+mkt_roas
+Descrição: Valor do ROAS no ano selecionado
+Filtro: Ano
+DAX:
+DIVIDE([mkt_lucro_6meses]; [mkt_Investimento])
+
+mkt_payback_meses_canal
+Descrição: Tempo de payback em meses no ano selecionado
+Filtro: Ano
+DAX:
+DIVIDE([mkt_payback_dias_canal]; 30)
+
+mkt_investimento_acumulado
+Descrição: Valor acumulado de investimento em marketing até o final do ano selecionado
+Filtro: Ano
+DAX:
+CALCULATE([mkt_investimento]; 
+FILTER(ALLSELECTED(dim_Calendario); 
+dim_calendario[Data] <= MAX(dim_calendario[Data])))
+
+Pasta: RFM
+
+rfm_clientes_qtd
+Descrição: Total de clientes cadastrados
+Filtro: Ano
+
+DAX: 
+DISTINCTCOUNT(fato_rfm_snapshot[id_cliente])
+Observação: 
+Esta medida é possível ser 'segmentada' (por pefil de clientes, por exemplo), enquanto a medida "clientes_total" exibe sempre o total acumulado. 
+
+rfm_faturamento
+Descrição: Valor de faturamento segmentado por métricas de RFM
+Filtro: Ano
+DAX:
+VAR _data_fim_selecao = MAX(dim_calendario[Data]) 
+VAR vResultado = CALCULATE(SUM(fato_rfm_snapshot[vlr_compras]), fato_rfm_snapshot[dt_ref] = _data_fim_selecao) 
+RETURN vResultado
+
+rfm_clientes_qtd_participacao
+Descrição: 
+Filtro: Ano
+DAX:
+DIVIDE([rfm_clientes_qtd]; [rfm_clientes_qtd_total])
+
+rfm_faturamento_participacao_aa%
+Descrição: 
+Filtro: Ano
+DAX:
+DIVIDE(([rfm_faturamento_participacao] - [rfm_faturamento_participacao_aa]); [rfm_faturamento_participacao_aa])
+
+Pasta: Retenção
+
+retencao_churn
+Descrição: 
+Filtro: Ano
+DAX:
+DIVIDE([retencao_churn_qtd]; [retencao_clientes_ativos]; 0)
+
+retencao_percentual (Retention Rate)
+Descrição: 
+Filtro: Ano
+DAX:
+1 - [retencao_churn]
+
+Pasta: Vendas
+
+vendas_receita
+Descrição: 
+Filtro: Ano
+DAX:
+SUM(fato_Vendas[vlr_receita_liq])
+
+vendas_lucro
+Descrição: 
+Filtro: Ano
+DAX:
+SUM(fato_Vendas[vlr_lucro_venda])
+
+vendas_ticket_medio
+Descrição: 
+Filtro: Ano
+DAX:
+DIVIDE(SUM(fato_Vendas[vlr_receita_liq]); 
+DISTINCTCOUNT(fato_Vendas[id_pedido]))
+
+vendas_lucro%
+Descrição: 
+Filtro: Ano
+DAX:
+DIVIDE([vendas_lucro]; [vendas_receita])

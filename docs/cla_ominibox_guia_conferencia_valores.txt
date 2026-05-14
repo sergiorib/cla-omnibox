@@ -1,0 +1,93 @@
+Conferencia 
+Rodar queries na camada prata e conferir se os dados batem com o dashboard.
+
+
+=============================
+== Pagina 1 - Visão Executiva 
+=============================
+
+--------------------------------
+-- Seção: Marketing 
+--------------------------------
+
+**********************
+* Card: Investimento
+**********************
+-- Busca os valores gastos em marketing por ano
+desc mkt_spend.parquet;
+select year(date) ano, sum(spend_amount) from mkt_spend.parquet group by ano;
+
+**********************
+* Card: CAC
+********************** 
+CAC
+-- Busca os valores gastos em marketing por ano e divide pela quantidade de clientes novos por ano
+WITH investimentos as 
+(select year(date) ano, sum(spend_amount) gastos from mkt_spend.parquet group by ano), 
+clientes_novos as 
+(select year(CAST(signup_date as DATE)) ano, count(distinct customer_id) clientes from customers.parquet group by ano) 
+SELECT i.ano, i.gastos, c.clientes, (i.gastos/c.clientes) as CAC 
+FROM investimentos i JOIN clientes_novos c ON c.ano = i.ano 
+
+**********************
+* Card: RETORNO  #PENDENCIA# Finalizar 
+********************** 
+Observação:  Valor médio de retorno de faturamento e lucro em até 6 meses para cad R$ 1 investido.  
+
+-- Faturamento e lucro (em até 6 meses) das vendas por ano dividido pelos investimentos (gastos) de marketing 
+-- Só considerar vendas geradas por ações de marketing 
+-- Faturamento e lucro (em até 6 meses) das vendas por ano dividido pelos investimentos (gastos) de marketing 
+-- Só considerar vendas cujo primeiro acesso de cliente tenha sido por uma ção de marketing
+-- Finalizar com a seguitne estratégia: 			
+1 - Levantar as despesas por ano. 
+2 - Levantar as acoes de marketing que trouxeram os clientes
+3 - levantar as vendas em até 6 meses dos clientes que vieram de acoes de marketing por ano. 
+3 - cruzar as informações dos valores da venda com as despesas por ano.     
+WITH investimentos as 
+(select year(date) ano, sum(spend_amount) gastos from mkt_spend.parquet group by ano), 
+fat_lucro as (
+SELECT 
+    YEAR(v.order_date) ano, 
+    CAST(v.id_acao AS INTEGER) AS id_acao, 
+    SUM(vlr_receita_liq) as vlr_faturamento, 
+    SUM(vlr_lucro_venda) as vlr_lucro
+FROM read_parquet('{OURO_VENDAS}') as v    
+LEFT JOIN read_parquet('{PRATA_MKT_ACTIONS}') as a on a.action_id = v.id_acao 
+WHERE 
+        v.tempo_decorrido_prim_compra <= 180
+        AND NOT v.id_acao IS NULL 
+        AND v.id_acao in (SELECT id_acao FROM read_parquet('{PRATA_MKT_SPEND}') s WHERE s.spend_amount > 0) 
+GROUP BY dt_ref, id_acao
+)
+
+--------------------------------
+-- Seção: Retenção  
+--------------------------------
+
+**********************
+* Card: Clientes 
+**********************
+-- Apura o total de clientes ao final de cada ano  
+select distinct YEAR(c.signup_date) ano, 
+(select count(distinct c2.customer_id) from customers.parquet c2 WHERE YEAR(c2.signup_date) <= ano) qtd
+ from customers.parquet c order by ano desc ;
+**********************
+* Card: Ativos #PENDENCIA#  Está com diferença na contaghem da quantidade de ativos. 
+********************** 
+-- Contagem dos clientes que comprara em cada ano 
+select distinct YEAR(o.order_date) ano 
+(select count(distinct o2.customer_id) from orders o2 where YEAR(o2.order_date) = ano) Ativos)
+FROM orders.parquet o;   
+
+**********************
+* Card: Novos
+********************** 
+-- Contagem dos clientes novos por ano 
+select year(CAST(signup_date as DATE)) ano, count(distinct customer_id) qtd from customers.parquet group by ano;
+**********************
+* Card: Retenção 
+********************** 
+
+**********************
+* Card: 
+********************** 
