@@ -48,8 +48,6 @@ def executar_ingestao_erp(db_nome: str = "omnibox_vendas_erp.db") -> dict:
             caminho_parquet = diretorio_bronze / f"{tabela}.parquet"
             
             try:
-                # O DuckDB permite passar parâmetros (?) para evitar problemas de string
-                # Note que para order_items passamos o caminho_db duas vezes devido à subquery
                 params = [str(caminho_db)]
                 if "order_items" in tabela:
                     params.append(str(caminho_db))
