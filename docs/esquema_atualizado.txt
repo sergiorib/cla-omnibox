@@ -1,0 +1,150 @@
+Preciso gerar a documentação dos modelos de dados do meu projeto pra incluir no portfolio. 
+Quero gerar toda a documentação em um unico arquivo pdf que irá conter o modelo de dados originais (raw) de vendas, marketing e navegação. 
+Vou te fornecer a descrição das tabelas e campos de cada uma das fontes de dados (vendas, marketing, e navegação) e preciso que seja gerado um documento em pdf que simule algo que seja entregue pela equipe de engenharia de dados da empresa Omnibox cosméticos. 
+
+-------------------------------------------------------------------------------------------------
+
+1 - Esquema de dados de venda atualizados 
+
+desc erp.category;
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ category_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ name        │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ description │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+desc erp.sub_category;
+┌─────────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│   column_name   │ column_type │  null   │   key   │ default │  extra  │
+│     varchar     │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ sub_category_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ category_id     │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ name            │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+desc erp.products;
+┌─────────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│   column_name   │ column_type │  null   │   key   │ default │  extra  │
+│     varchar     │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ product_id      │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ name            │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ sku             │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ sub_category_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ brand           │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ cost            │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ markup          │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+desc erp.customers;
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ customer_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ first_name  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ last_name   │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ email       │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ gender      │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ birth_date  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ city        │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ state       │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ signup_date │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+desc erp.orders;
+┌────────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│  column_name   │ column_type │  null   │   key   │ default │  extra  │
+│    varchar     │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├────────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ order_id       │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ customer_id    │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ order_date     │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ shipped_date   │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ delivery_date  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ order_status   │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ payment_method │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ transaction_id │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ action_code    │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ free_shipping  │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ shipping_cost  │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ gross_amount   │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ discount       │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ net_amount     │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+├────────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┤
+desc erp.order_items;
+┌───────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│  column_name  │ column_type │  null   │   key   │ default │  extra  │
+│    varchar    │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├───────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ order_item_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ order_id      │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ product_id    │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ quantity      │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ unit_cost     │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ price         │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ item_value    │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+└───────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+
+2 - Esquema de dados de marketing atualizados 
+desc mkt_campaigns.json;
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ campaign_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ name        │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ code        │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ description │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ start_date  │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ end_date    │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ budget      │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+desc mkt_actions.json;
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ action_id   │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ campaign_id │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ action_code │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ objective   │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ medium      │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ source      │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ start_date  │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ end_date    │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ budget      │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+desc mkt_spend.json;
+┌──────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name  │ column_type │  null   │   key   │ default │  extra  │
+│   varchar    │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├──────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ date         │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ action_id    │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ spend_amount │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ clicks       │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ impressions  │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+└──────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+3 - Esquema de dados de Navegação (Google analytics) atualizados
+desc './Google_analytics/*.jsonl';
+┌─────────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│   column_name   │ column_type │  null   │   key   │ default │  extra  │
+│     varchar     │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ event_name      │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ event_date      │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ event_timestamp │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ user_id         │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ user_pseudo_id  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ region          │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ ga_session_id   │ UUID        │ YES     │ NULL    │ NULL    │ NULL    │
+│ product_id      │ JSON        │ YES     │ NULL    │ NULL    │ NULL    │
+│ page_location   │ JSON        │ YES     │ NULL    │ NULL    │ NULL    │
+│ source          │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ medium          │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ transaction_id  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ campaign        │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ campaign_id     │ JSON        │ YES     │ NULL    │ NULL    │ NULL    │
+├─────────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┤
+ 
