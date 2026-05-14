@@ -139,7 +139,7 @@ Utiliza segmentação RFM (Recência, Frequência e Valor) para classificar a ba
 
 # 🔎  INSIGHTS
 Pra finalizar, com o auxilio de especialistas das áreas especializadas em cada assunto (marketing, retencão e site),  elaboro um relatório com as observações de negócio obtidas através dos dados analisados: 
-
+ 
 - Principais forças do negócio: 
 
  - ✅ Crescimento acelerado da base
