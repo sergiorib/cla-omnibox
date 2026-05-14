@@ -12,8 +12,6 @@ def executar_ingestao_analytics() -> dict:
     # 1. Configuração de Caminhos
     diretorio_atual = Path(__file__).resolve().parent
     diretorio_base = diretorio_atual.parents[1]
-    
-    # Definimos onde estão os brutos e onde será a saída
     diretorio_raw = diretorio_base / "dados" / "raw" / "google_analytics" 
     diretorio_bronze = diretorio_base / "dados" / "bronze" / "google_analytics" 
     
@@ -22,7 +20,6 @@ def executar_ingestao_analytics() -> dict:
     diretorio_raw.mkdir(parents=True, exist_ok=True)    
 
     # 2. Localização dos arquivos JSONL
-    # Buscamos todos os arquivos que terminam em .jsonl na pasta raw
     arquivos_jsonl = list(diretorio_raw.glob("*.jsonl"))
     
     relatorio_arquivos = []
@@ -46,8 +43,6 @@ def executar_ingestao_analytics() -> dict:
             caminho_parquet = diretorio_bronze / f"{nome_base}.parquet"
             
             try:
-                # O DuckDB lê o JSONL e grava o Parquet em uma única operação atômica
-                # 'format=auto' para JSONL geralmente funciona perfeitamente
                 query = f"""
                     COPY (
                         SELECT * FROM read_json_auto('{str(arquivo_path)}')
@@ -55,7 +50,6 @@ def executar_ingestao_analytics() -> dict:
                 """
                 conn.execute(query)
                 
-                # Coleta contagem de registros para o log
                 contagem = conn.execute(f"SELECT COUNT(*) FROM '{str(caminho_parquet)}'").fetchone()[0]
                 
                 relatorio_arquivos.append({

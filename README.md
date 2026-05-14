@@ -1,7 +1,5 @@
 <img src="./img/capa_readme.png" />
 
-### (Documentação em construção -  Previsão: 05/05/2026 )
-
 ![Analise de dados](https://img.shields.io/badge/Engenharia/Analise_de_dados-Ingestão/Tratamento/Transformação-C0C0C0?style=for-the-badge)
 ![CRISP-DM](https://img.shields.io/badge/CRISP_DM-5a189a?style=for-the-badge&logo=Tableau&logoColor=white)
 ![ETL Pipeline](https://img.shields.io/badge/ETL_Pipeline-9d4edd?style=for-the-badge)
@@ -117,23 +115,23 @@ Este projeto foi criado como parte do meu portfólio de análise de dados para d
 ## 🔗Links rápidos
 ### 📊 [Publicação do dashboard (Power BI Service)](https://app.powerbi.com/view?r=eyJrIjoiNGJhMGJjNWYtM2U1YS00NWJlLTkyZmYtYzQ5YjAwODg4MjY2IiwidCI6IjNmZDRlZDcxLWNmMDUtNDJmMS05Y2ZjLWQyNGI5ZGFjZjA3MyJ9)  
 
-### 🗎 [Meu curriculum vitae](../docs/CV_Sergio_Ribeiro_AD_BI.pdf) 
+### 🗎 [Meu curriculum vitae](./docs/CV_Sergio_Ribeiro_AD_BI.pdf) 
 
-### 🗎 [Modelos de dados das fontes originais (raw)](../docs/CLA_OMNIBOX_Doc_Engenharia_Dados_v2.pdf)
+### 🗎 [Modelos de dados das fontes originais (raw)](./docs/CLA_OMNIBOX_Doc_Engenharia_Dados_v2.pdf)
 
-### 🗎 [Notebook de exploração dos dados](../src/cla_omnibox_exploracao.ipynb)
+### 🗎 [Notebook de exploração dos dados](./src/cla_omnibox_exploracao.ipynb)
 
-### 🗎 [Arquivo de configuração (json) com os parametros para tratamento dos dados](../config/cla_omnibox_schema_dados.json)
+### 🗎 [Arquivo de configuração (json) com os parametros para tratamento dos dados](./config/cla_omnibox_schema_dados.json)
 
-### 🗎 [Programa de tratamento dos dados](../src/cla_omnibox_tratamento.py)
+### 🗎 [Programa de tratamento dos dados](./src/cla_omnibox_tratamento.py)
 
-### 🗎 [Programa de transformação dos dados para o modelo dimensional](../src/cla_omnibox_transformacao.py)
+### 🗎 [Programa de transformação dos dados para o modelo dimensional](./src/cla_omnibox_transformacao.py)
 
-### 🗎 [Modelos de dados após transformação para o modelo dimensional (Ouro)](../docs/CLA_OMNIBOX_Doc_Analise_Esquema_Ouro.pdf)
+### 🗎 [Modelos de dados após transformação para o modelo dimensional (Ouro)](./docs/CLA_OMNIBOX_Doc_Analise_Esquema_Ouro.pdf)
 
-### 🗎 [Medidas DAX utilizadas no Dashboard](../docs/CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf)
+### 🗎 [Medidas DAX utilizadas no Dashboard](./docs/CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf)
 
-### 🗎 [Documento de Insights](../docs/CLA_OMNIBOX_Doc_Analise_Insights.pdf)
+### 🗎 [Documento de Insights](./docs/CLA_OMNIBOX_Doc_Analise_Insights.pdf)
 
 ## 🌐 Visão geral 
 ### Fluxo dos dados
@@ -256,7 +254,7 @@ O escopo contempla a construção de um pipeline de dados estruturado em arquite
 
 Documentação do dicionário de dados e origens de coleta fornecidas pela equipe de engenharia de dados. 
 
-### 🗎 [CLA_OMNIBOX_Doc_Engenharia_Dados_v2](../docs/CLA_OMNIBOX_Doc_Engenharia_Dados_v2.pdf)
+### 🗎 [CLA_OMNIBOX_Doc_Engenharia_Dados_v2](./docs/CLA_OMNIBOX_Doc_Engenharia_Dados_v2.pdf)
 
 ### 2.2 Definição de Requisitos de Dados
 
@@ -293,7 +291,7 @@ Estes serão os dados brutos (padrão bronze) disponibilizados para tratamento e
 
 Aqui analiso os dados coletados (relacionamentos, PK,  FK, campos requeridos e etc.) , e monto um desenho do modelo de dados.  
 
-Este modelo servirá de base para as analises exploratorias e a configuração dos tratamentos de dados que serão descritos no arquivo [cla_omnibox_schema_dados.json](../config/cla_omnibox_schema_dados.json)
+Este modelo servirá de base para as analises exploratorias e a configuração dos tratamentos de dados que serão descritos no arquivo [cla_omnibox_schema_dados.json](./config/cla_omnibox_schema_dados.json)
 
 ### 2.5 Análise de adequação e cobertura de dados
 
@@ -317,7 +315,7 @@ O processo contempla:
 
 A abordagem adotada combina processamento analítico em memória com exploração visual orientada a amostras.
 
-O Notebook que implementa a exploração dos dados é o [cla_omnibox_exploracao.ipynb](../src/cla_omnibox_exploracao.ipynb)
+O Notebook que implementa a exploração dos dados é o [cla_omnibox_exploracao.ipynb](./src/cla_omnibox_exploracao.ipynb)
 
 #### 2. Arquitetura e Stack Tecnológica
 
@@ -411,9 +409,9 @@ Tipos de análise:
 Esta etapa é onde faço o tratamento e roteamento dos dados na transição da camada Bronze (dados brutos/brutos particionados) para a camada Prata (dados confiáveis e higienizados).
 
 A arquitetura de validação foi desenhada de maneira orientada a metadados, o que significa que o código Python não possui regras "chumbadas". Em vez disso, o motor lê as regras de negócio e restrições a partir de um arquivo mestre de configuração chamado  
-[cla_omnibox_schema_dados.json](../config/cla_omnibox_schema_dados.json), garantindo alta escalabilidade e fácil manutenção.
+[cla_omnibox_schema_dados.json](./config/cla_omnibox_schema_dados.json), garantindo alta escalabilidade e fácil manutenção.
 
-O programa que implementa os tratamentos é o [cla_omnibox_tratamento.py](../src/cla_omnibox_tratamento.py)
+O programa que implementa os tratamentos é o [cla_omnibox_tratamento.py](./src/cla_omnibox_tratamento.py)
 
 #### Especificações Técnicas do Motor
 
@@ -459,7 +457,7 @@ O pipeline implementa o padrão arquitetural de **Dead Letter Queue (DLQ)** e **
 
 ## Etapa 4: Modelagem dimensional
 
-O módulo de transformação ([cla_omnibox_transformacao.py](../src/cla_omnibox_transformacao.py)) é o motor analítico do projeto.  
+O módulo de transformação ([cla_omnibox_transformacao.py](./src/cla_omnibox_transformacao.py)) é o motor analítico do projeto.  
 Ele é responsável por consumir os dados higienizados da **Camada Prata** e aplicar regras complexas de negócio para gerar a **Camada Ouro** (Modelagem Dimensional e Agregações Analíticas), que alimenta diretamente os dashboards no Power BI.
 
 #### 🛠️ Stack Tecnológico e Otimizações
@@ -546,7 +544,7 @@ O dashboard está estruturado em quatro visões estratégicas que permitem uma a
 
 ### Medidas
 
-AS medidas utilizadas no dashboard estão no documento [CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf](../docs/CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf)
+AS medidas utilizadas no dashboard estão no documento [CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf](./docs/CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf)
 
 ## Etapa 6: Publicação 
 
