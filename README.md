@@ -1,9 +1,11 @@
-<img src="./img/capa_readme.png" />
+<img src="./img/capa_readme.png" />  
 
-# Customer Lifecycle Analytics (CLA) para e-commerce de cosméticos
+
+Customer Lifecycle Analytics (CLA) para e-commerce de cosméticos  
 Autor: Sergio Ribeiro Cerqueira   
-Contato: sergio.rib@live.com   
+Contato: sergio.rib@live.com     
 Linkedin:  [www.linkedin.com/in/sergio-ribeiro-cerqueira](https://www.linkedin.com/in/sergio-ribeiro-cerqueira)
+
 
 ![Analise de dados](https://img.shields.io/badge/Engenharia/Analise_de_dados-Ingestão/Tratamento/Transformação-C0C0C0?style=for-the-badge)
 ![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-Bronze/Silver/Gold-C0C0C0?style=for-the-badge)
@@ -16,8 +18,7 @@ Linkedin:  [www.linkedin.com/in/sergio-ribeiro-cerqueira](https://www.linkedin.c
 ![Power BI](https://img.shields.io/badge/Power_BI-580c1f?style=for-the-badge&logo=powerbi&logoColor=black)
 ![FIGMA](https://img.shields.io/badge/FIGMA-a47e1b?style=for-the-badge&logo=Figma&logoColor=white)
 
-- [Customer Lifecycle Analytics (CLA) para e-commerce de cosméticos](#customer-lifecycle-analytics-cla-para-e-commerce-de-cosméticos)
-- [Resumo do projeto](#resumo-do-projeto)
+Conteúdo
 - [🎯OBJETIVO](#objetivo)
 - [🧱 STACK](#-stack)
 - [🗳️ PROCESSO](#️-processo)
@@ -30,7 +31,6 @@ Linkedin:  [www.linkedin.com/in/sergio-ribeiro-cerqueira](https://www.linkedin.c
   - [Overview da pipeline de dados](#overview-da-pipeline-de-dados)
 - [🔎  INSIGHTS](#--insights)
 
-# Resumo do projeto
 
 # 🎯OBJETIVO 
 
