@@ -7,9 +7,9 @@
 Esta etapa é onde faço o tratamento e roteamento dos dados na transição da camada Bronze (dados brutos/brutos particionados) para a camada Prata (dados confiáveis e higienizados).
 
 A arquitetura de validação foi desenhada de maneira orientada a metadados, o que significa que o código Python não possui regras "chumbadas". Em vez disso, o motor lê as regras de negócio e restrições a partir de um arquivo mestre de configuração chamado  
-[cla_omnibox_schema_dados.json](./config/cla_omnibox_schema_dados.json), garantindo alta escalabilidade e fácil manutenção.
+[cla_omnibox_schema_dados.json](../../config/cla_omnibox_schema_dados.json), garantindo alta escalabilidade e fácil manutenção.
 
-O programa que implementa os tratamentos é o [cla_omnibox_tratamento.py](./src/cla_omnibox_tratamento.py)
+O programa que implementa os tratamentos é o [cla_omnibox_tratamento.py](../../src/cla_omnibox_tratamento.py)
 
 #### Especificações Técnicas do Motor
 

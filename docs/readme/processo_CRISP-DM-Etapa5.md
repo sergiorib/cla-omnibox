@@ -24,7 +24,7 @@ O dashboard está estruturado em quatro visões estratégicas que permitem uma a
 
 ### Medidas
 
-AS medidas utilizadas no dashboard estão no documento [CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf](./docs/CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf)
+AS medidas utilizadas no dashboard estão no documento [CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf](../CLA_OMNIBOX_Doc_Analise_Medidas_DAX.pdf)
 
 ## Etapa 6: Publicação 
 
