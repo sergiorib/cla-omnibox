@@ -14,7 +14,7 @@
 
 Documentação do dicionário de dados e origens de coleta fornecidas pela equipe de engenharia de dados. 
 
-### 🗎 [CLA_OMNIBOX_Doc_Engenharia_Dados_v2](./docs/CLA_OMNIBOX_Doc_Engenharia_Dados_v2.pdf)
+### 🗎 [CLA_OMNIBOX_Doc_Engenharia_Dados_v2](../CLA_OMNIBOX_Doc_Engenharia_Dados_v2.pdf)
 
 ### 2.2 Definição de Requisitos de Dados
 
@@ -51,7 +51,7 @@ Estes serão os dados brutos (padrão bronze) disponibilizados para tratamento e
 
 Aqui analiso os dados coletados (relacionamentos, PK,  FK, campos requeridos e etc.) , e monto um desenho do modelo de dados.  
 
-Este modelo servirá de base para as análises exploratorias e a configuração dos tratamentos de dados que serão descritos no arquivo [cla_omnibox_schema_dados.json](./config/cla_omnibox_schema_dados.json)
+Este modelo servirá de base para as análises exploratorias e a configuração dos tratamentos de dados que serão descritos no arquivo [cla_omnibox_schema_dados.json](../../config/cla_omnibox_schema_dados.json)
 
 ### 2.5 Análise de adequação e cobertura de dados
 
@@ -75,7 +75,7 @@ O processo contempla:
 
 A abordagem adotada combina processamento analítico em memória com exploração visual orientada a amostras.
 
-O Notebook que implementa a exploração dos dados é o [cla_omnibox_exploracao.ipynb](./src/cla_omnibox_exploracao.ipynb)
+O Notebook que implementa a exploração dos dados é o [cla_omnibox_exploracao.ipynb](../../src/cla_omnibox_exploracao.ipynb)
 
 #### 2. Arquitetura e Stack Tecnológica
 

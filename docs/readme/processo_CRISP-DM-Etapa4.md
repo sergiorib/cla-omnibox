@@ -2,7 +2,7 @@
 
 ## Etapa 4: Modelagem dimensional
 
-O módulo de transformação ([cla_omnibox_transformacao.py](./src/cla_omnibox_transformacao.py)) é o motor analítico do projeto.  
+O módulo de transformação ([cla_omnibox_transformacao.py](../../src/cla_omnibox_transformacao.py)) é o motor analítico do projeto.  
 Ele é responsável por consumir os dados higienizados da **Camada Prata** e aplicar regras complexas de negócio para gerar a **Camada Ouro** (Modelagem Dimensional e Agregações Analíticas), que alimenta diretamente os dashboards no Power BI.
 
 #### 🛠️ Stack Tecnológico e Otimizações
